@@ -27,6 +27,7 @@ describe('AppComponent', () => {
     expect(component.title).toEqual('angular-testing');
   });
 
+  /*
   test('Aqui deben renderizar el titulo correctamente', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const component = fixture.componentInstance;
@@ -37,7 +38,8 @@ describe('AppComponent', () => {
     const h1 = compiled.querySelector('h1');
     expect(h1?.textContent).toContain(component.title);
   });
-
+  
+  
   test('Debe hacer match con el snapshot',() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
@@ -46,5 +48,6 @@ describe('AppComponent', () => {
     expect (compiled).toMatchSnapshot()
 
   })
+  */
 
 });
